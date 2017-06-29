@@ -1,0 +1,2 @@
+1. 采用MapperScannerConfigurer，它将会查找类路径下的映射器并自动将它们创建成MapperFactoryBean
+2.

@@ -1,0 +1,3 @@
+com/wll/test/mybatis/service/UserService.class
+com/wll/test/mybatis/dao/UserDao.class
+com/wll/test/mybatis/model/User.class

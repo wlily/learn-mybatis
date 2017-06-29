@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- 为这个mapper指定一个唯一的namespace，namespace的值习惯上设置成包名+sql映射文件名，这样就能够保证namespace的值是唯一的-->
+<mapper namespace="com.wll.test.mybatis.cond2.dao.UserDao2">
+    <resultMap id="resultListUser" type="com.wll.test.mybatis.model.User">
+        <id column="id" property="id"/>
+        <result column="user_name" property="userName"/>
+        <result column="user_age" property="userAge"/>
+        <result column="user_address" property="userAddress"/>
+    </resultMap>
+
+    <select id="selectUserByID" parameterType="int" resultMap="resultListUser">
+        select * from `user` where id = #{id}
+    </select>
+
+    <select id="selectUsers" parameterType="string" resultMap="resultListUser">
+        select * from `user` where user_name like #{userName}
+    </select>
+
+    <select id="selectAll"  resultMap="resultListUser">
+        select * from `user`
+    </select>
+
+    <insert id="addUser" parameterType="com.wll.test.mybatis.model.User" useGeneratedKeys="true" keyProperty="id">
+        insert into `user`(user_name, user_age, user_address) VALUES (#{userName}, #{userAge}, #{userAddress})
+    </insert>
+
+    <update id="updateUser" parameterType="com.wll.test.mybatis.model.User">
+        update `user` set user_name=#{userName},user_age=#{userAge},user_address=#{userAddress} where id=#{id}
+    </update>
+
+    <delete id="deleteUser" parameterType="int">
+        delete from user where id=#{id}
+    </delete>
+
+    <resultMap id="resultUserArticleList" type="com.wll.test.mybatis.model.Article">
+        <id property="id" column="aid"/>
+        <result property="title" column="title"/>
+        <result property="content" column="content"/>
+        <association property="user" javaType="com.wll.test.mybatis.model.User" resultMap="resultListUser"/>
+    </resultMap>
+    <select id="getUserAticles" parameterType="int" resultMap="resultUserArticleList">
+        select user.id,user.user_name, user.user_age, user_address, article.id, article.title, article.content
+        from user, article
+        where user.id=article.userid and user.id=#{id}
+    </select>
+</mapper>
