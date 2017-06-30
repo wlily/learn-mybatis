@@ -1,7 +1,7 @@
 package com.wll.test.mybatis.service.serviceImpl;
 
-import com.wll.test.mybatis.dao.AppointmentDao;
-import com.wll.test.mybatis.dao.BookDao;
+import mapper.AppointmentDao;
+import mapper.BookDao;
 import com.wll.test.mybatis.dto.AppointExecution;
 import com.wll.test.mybatis.entity.Appointment;
 import com.wll.test.mybatis.entity.Book;

@@ -4,7 +4,7 @@
         "http://mybatis.org/dtd/mybatis-3-config.dtd">
 <configuration>
     <typeAliases>
-        <typeAlias type="com.wll.test.mybatis.cond1.dao.UserDao" alias="UserDao"/>
+        <typeAlias type="com.wll.test.mybatis.dao.UserDao" alias="UserDao"/>
         <typeAlias type="com.wll.test.mybatis.model.User" alias="User"/>
     </typeAliases>
     <environments default="development">
