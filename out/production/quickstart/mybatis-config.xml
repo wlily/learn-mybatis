@@ -5,7 +5,7 @@
 <configuration>
     <typeAliases>
         <typeAlias type="com.wll.test.mybatis.dao.UserDao" alias="UserDao"/>
-        <typeAlias type="com.wll.test.mybatis.dao.User" alias="User"/>
+        <typeAlias type="com.wll.test.mybatis.entity.User" alias="User"/>
     </typeAliases>
     <environments default="development">
         <environment id="development">
@@ -19,6 +19,6 @@
         </environment>
     </environments>
     <mappers>
-        <mapper resource="com/wll/test/mybatis/dao/UserDao.xml"/>
+        <mapper resource="mapper/UserDao.xml"/>
     </mappers>
 </configuration>

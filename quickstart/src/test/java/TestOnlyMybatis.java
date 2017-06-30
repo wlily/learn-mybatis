@@ -49,4 +49,41 @@ public class TestOnlyMybatis {
             session.close();
         }
     }
+
+    @org.junit.Test
+    public void test2() throws Exception {
+        Reader reader = Resources.getResourceAsReader("mybatis-config.xml");
+        SqlSessionFactoryBuilder sqlSessionFactoryBuilder = new SqlSessionFactoryBuilder();
+        SqlSessionFactory sqlSessionFactory = sqlSessionFactoryBuilder.build(reader);
+        SqlSession session = sqlSessionFactory.openSession();
+
+        try{
+            String nameSpace = UserDao.class.getName();
+
+            User user = new User();
+            user.setUserName("gg");
+            user.setUserAge("30");
+            user.setUserAddress("Shanghai");
+
+            session.insert(nameSpace + ".addUser", user);
+            session.commit();
+            System.out.println("当前增加的用户id为: " + user.getId());
+
+            User user2 = session.selectOne(nameSpace + ".selectUserByID", 4);
+            user2.setUserAddress("原来是哈哈哈");
+            session.update(nameSpace + ".updateUser", user2);
+            session.commit();
+
+            session.delete(nameSpace + ".deleteUser", 2);
+            session.commit();
+
+            System.out.println((User)session.selectOne(nameSpace + ".selectUserByID", 1));
+            System.out.println(session.selectList(nameSpace + ".selectAll"));
+            System.out.println(session.selectList(nameSpace + ".selectUsers", "gg"));
+            System.out.println(session.selectList(nameSpace + ".getUserAticles", 1));
+        }
+        finally {
+            session.close();
+        }
+    }
 }

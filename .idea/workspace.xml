@@ -2,30 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="27ed06ab-cf52-41b4-9ef9-a8fdff26d46b" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/quickstart/src/main/java/mapper/Article.java" afterPath="$PROJECT_DIR$/quickstart/src/main/java/com/wll/test/mybatis/entity/Article.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/quickstart/src/main/java/mapper/User.java" afterPath="$PROJECT_DIR$/quickstart/src/main/java/com/wll/test/mybatis/entity/User.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/quickstart/src/main/java/mapper/UserDao.java" afterPath="$PROJECT_DIR$/quickstart/src/main/java/com/wll/test/mybatis/dao/UserDao.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/quickstart2/src/main/java/com/wll/test/mybatis/model/Article.java" afterPath="$PROJECT_DIR$/quickstart2/src/main/java/com/wll/test/mybatis/entity/Article.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/quickstart2/src/main/java/com/wll/test/mybatis/model/User.java" afterPath="$PROJECT_DIR$/quickstart2/src/main/java/com/wll/test/mybatis/entity/User.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/quickstart3/src/main/java/mapper/AppointmentDao.java" afterPath="$PROJECT_DIR$/quickstart3/src/main/java/com/wll/test/mybatis/dao/AppointmentDao.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/quickstart3/src/main/java/mapper/BookDao.java" afterPath="$PROJECT_DIR$/quickstart3/src/main/java/com/wll/test/mybatis/dao/BookDao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/quickstart/src/main/resources/mapper/UserDao.xml" afterPath="$PROJECT_DIR$/quickstart/src/main/resources/mapper/UserDao.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/quickstart/com/wll/test/mybatis/dao/Article.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/quickstart/com/wll/test/mybatis/dao/User.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/quickstart/com/wll/test/mybatis/dao/UserDao.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/quickstart/com/wll/test/mybatis/dao/UserDao.class" afterPath="$PROJECT_DIR$/out/production/quickstart/com/wll/test/mybatis/dao/UserDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/quickstart/TestOnlyMybatis.class" afterPath="$PROJECT_DIR$/out/test/quickstart/TestOnlyMybatis.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/quickstart/mybatis-config.xml" afterPath="$PROJECT_DIR$/out/production/quickstart/mybatis-config.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/quickstart/src/main/resources/mybatis-config.xml" afterPath="$PROJECT_DIR$/quickstart/src/main/resources/mybatis-config.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/quickstart/src/test/java/TestOnlyMybatis.java" afterPath="$PROJECT_DIR$/quickstart/src/test/java/TestOnlyMybatis.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/quickstart2/src/main/java/com/wll/test/mybatis/dao/UserDao.java" afterPath="$PROJECT_DIR$/quickstart2/src/main/java/com/wll/test/mybatis/dao/UserDao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/quickstart2/src/main/java/com/wll/test/mybatis/dao/UserDaoImpl2.java" afterPath="$PROJECT_DIR$/quickstart2/src/main/java/com/wll/test/mybatis/dao/UserDaoImpl2.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/quickstart2/src/main/java/com/wll/test/mybatis/dao/UserDaoImpl3.java" afterPath="$PROJECT_DIR$/quickstart2/src/main/java/com/wll/test/mybatis/dao/UserDaoImpl3.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/quickstart2/src/main/java/com/wll/test/mybatis/service/IUserService.java" afterPath="$PROJECT_DIR$/quickstart2/src/main/java/com/wll/test/mybatis/service/IUserService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/quickstart2/src/main/java/com/wll/test/mybatis/service/UserService.java" afterPath="$PROJECT_DIR$/quickstart2/src/main/java/com/wll/test/mybatis/service/UserService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/quickstart2/src/main/resources/applicationContext.xml" afterPath="$PROJECT_DIR$/quickstart2/src/main/resources/applicationContext.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/quickstart2/src/main/resources/mapper/UserDao.xml" afterPath="$PROJECT_DIR$/quickstart2/src/main/resources/mapper/UserDao.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/quickstart2/src/main/resources/spring and mybatis intergration.txt" afterPath="$PROJECT_DIR$/quickstart2/src/main/resources/spring and mybatis intergration.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/quickstart3/src/main/java/com/wll/test/mybatis/service/serviceImpl/BookServiceImpl.java" afterPath="$PROJECT_DIR$/quickstart3/src/main/java/com/wll/test/mybatis/service/serviceImpl/BookServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/quickstart3/src/main/java/com/wll/test/mybatis/web/BookController.java" afterPath="$PROJECT_DIR$/quickstart3/src/main/java/com/wll/test/mybatis/web/BookController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/quickstart3/src/main/resources/mapper/AppointmentDao.xml" afterPath="$PROJECT_DIR$/quickstart3/src/main/resources/mapper/AppointmentDao.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/quickstart3/src/main/resources/mapper/BookDao.xml" afterPath="$PROJECT_DIR$/quickstart3/src/main/resources/mapper/BookDao.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/quickstart3/src/test/java/com/wll/test/mybatis/AppointmentDaoTest.java" afterPath="$PROJECT_DIR$/quickstart3/src/test/java/com/wll/test/mybatis/AppointmentDaoTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/quickstart3/src/test/java/com/wll/test/mybatis/BookDaoTest.java" afterPath="$PROJECT_DIR$/quickstart3/src/test/java/com/wll/test/mybatis/BookDaoTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/quickstart/target/" />
     <ignored path="$PROJECT_DIR$/quickstart2/target/" />
@@ -52,6 +36,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="UserDao.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/quickstart/src/main/resources/mapper/UserDao.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-340">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1498788760261" expanded="true" signature="599:636" ph="select * fro... user" />
+                <marker date="1498788760261" expanded="true" signature="740:793" ph="select * fro... user" />
+                <marker date="1498788760261" expanded="true" signature="873:893" ph="select * fro... user" />
+                <marker date="1498788760261" expanded="true" signature="1033:1135" ph="insert into `user`... " />
+                <marker date="1498788760261" expanded="true" signature="1237:1339" ph="update `user... " />
+                <marker date="1498788760261" expanded="true" signature="1412:1443" ph="delete from " />
+                <marker date="1498788760261" expanded="true" signature="1912:2096" ph="select user.... user" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="Article.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/quickstart/src/main/java/com/wll/test/mybatis/entity/Article.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -74,11 +76,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestOnlyMybatis.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="TestOnlyMybatis.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/quickstart/src/test/java/TestOnlyMybatis.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-100">
-              <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+            <state relative-caret-position="-6">
+              <caret line="57" column="14" lean-forward="true" selection-start-line="57" selection-start-column="14" selection-end-line="57" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -94,11 +96,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="applicationContext.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="applicationContext.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/quickstart2/src/main/resources/applicationContext.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="771">
-              <caret line="65" column="8" lean-forward="true" selection-start-line="65" selection-start-column="8" selection-end-line="65" selection-end-column="8" />
+            <state relative-caret-position="231">
+              <caret line="38" column="54" lean-forward="true" selection-start-line="38" selection-start-column="54" selection-end-line="38" selection-end-column="54" />
               <folding />
             </state>
           </provider>
@@ -107,8 +109,8 @@
       <file leaf-file-name="SqlSession.class" pinned="false" current-in-tab="false">
         <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.4/mybatis-3.4.4.jar!/org/apache/ibatis/session/SqlSession.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="20">
-              <caret line="14" column="17" lean-forward="false" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+            <state relative-caret-position="-380">
+              <caret line="25" column="30" lean-forward="false" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -117,8 +119,8 @@
       <file leaf-file-name="UserDao.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/quickstart/src/main/java/com/wll/test/mybatis/dao/UserDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+            <state relative-caret-position="240">
+              <caret line="12" column="26" lean-forward="false" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -136,21 +138,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AppointmentDao.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/quickstart3/src/main/java/com/wll/test/mybatis/dao/AppointmentDao.java">
+      <file leaf-file-name="mybatis-config.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/quickstart/src/main/resources/mybatis-config.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BookDao.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/quickstart3/src/main/java/com/wll/test/mybatis/dao/BookDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="56">
-              <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+            <state relative-caret-position="420">
+              <caret line="21" column="32" lean-forward="false" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -197,8 +189,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/quickstart3/src/main/java/com/wll/test/mybatis/serviceImpl/UserService.java" />
-        <option value="$PROJECT_DIR$/quickstart3/src/main/resources/mybatis-config.xml" />
         <option value="$PROJECT_DIR$/quickstart3/src/main/resources/spring/spring-service.xml" />
         <option value="$PROJECT_DIR$/quickstart3/src/main/resources/spring/spring-web.xml" />
         <option value="$PROJECT_DIR$/quickstart3/src/main/resources/spring/spring-dao.xml" />
@@ -248,6 +238,8 @@
         <option value="$PROJECT_DIR$/quickstart/src/main/java/com/wll/test/mybatis/entity/Article.java" />
         <option value="$PROJECT_DIR$/quickstart2/src/main/resources/spring and mybatis intergration.txt" />
         <option value="$PROJECT_DIR$/quickstart2/src/main/resources/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/quickstart/src/test/java/TestOnlyMybatis.java" />
+        <option value="$PROJECT_DIR$/quickstart/src/main/resources/mybatis-config.xml" />
       </list>
     </option>
   </component>
@@ -381,6 +373,146 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="learn-mybatis" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="quickstart" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="learn-mybatis" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="quickstart" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="learn-mybatis" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="quickstart" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="learn-mybatis" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="quickstart" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mapper" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="learn-mybatis" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="quickstart" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mybatis" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="entity" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="learn-mybatis" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="quickstart" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mybatis" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dao" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
@@ -434,7 +566,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestWithSpring2.test1">
+  <component name="RunManager" selected="JUnit.TestOnlyMybatis.test2">
     <configuration default="false" name="TestWithSpring.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="quickstart2" />
@@ -443,27 +575,6 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TestWithSpring" />
       <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="TestWithSpring.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="quickstart2" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestWithSpring" />
-      <option name="METHOD_NAME" value="test2" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -527,6 +638,27 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TestWithSpring3" />
       <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="TestOnlyMybatis.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="quickstart" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestOnlyMybatis" />
+      <option name="METHOD_NAME" value="test2" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -871,18 +1003,18 @@
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Tomcat Server.quickstart3" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.TestWithSpring.test1" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.TestWithSpring.test2" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.TestWithSpring2.test1" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.TestWithSpring2.test2" />
-      <item index="5" class="java.lang.String" itemvalue="JUnit.TestWithSpring3.test1" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.TestWithSpring2.test1" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.TestWithSpring2.test2" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.TestWithSpring3.test1" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.TestOnlyMybatis.test2" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.TestWithSpring2.test1" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.TestWithSpring3.test1" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.TestWithSpring2.test2" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.TestWithSpring.test1" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.TestWithSpring.test2" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.TestOnlyMybatis.test2" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.TestWithSpring2.test1" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.TestWithSpring3.test1" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.TestWithSpring2.test2" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.TestWithSpring.test1" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="TestNG" default="true" selected="false">
@@ -905,22 +1037,22 @@
       <workItem from="1498613673922" duration="1435000" />
       <workItem from="1498615131629" duration="5863000" />
       <workItem from="1498627203632" duration="4190000" />
-      <workItem from="1498631771597" duration="36078000" />
+      <workItem from="1498631771597" duration="37114000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestWithSpring2_test1 - 2017.06.30 at 09h 36m 54s.xml">
-      <configuration name="TestWithSpring2.test1" configurationId="JUnit" />
+    <history-entry file="TestOnlyMybatis_test2 - 2017.06.30 at 11h 13m 00s.xml">
+      <configuration name="TestOnlyMybatis.test2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestOnlyMybatis_test2 - 2017.06.30 at 11h 13m 33s.xml">
+      <configuration name="TestOnlyMybatis.test2" configurationId="JUnit" />
     </history-entry>
     <history-entry file="TestWithSpring2_test1 - 2017.06.30 at 09h 56m 04s.xml">
       <configuration name="TestWithSpring2.test1" configurationId="JUnit" />
     </history-entry>
     <history-entry file="TestWithSpring2_test1 - 2017.06.30 at 10h 02m 12s.xml">
       <configuration name="TestWithSpring2.test1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestWithSpring3_test1 - 2017.06.30 at 09h 49m 10s.xml">
-      <configuration name="TestWithSpring3.test1" configurationId="JUnit" />
     </history-entry>
     <history-entry file="TestWithSpring3_test1 - 2017.06.30 at 09h 49m 25s.xml">
       <configuration name="TestWithSpring3.test1" configurationId="JUnit" />
@@ -942,7 +1074,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47566000" />
+    <option name="totallyTimeSpent" value="48602000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -970,7 +1102,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23138298" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2925532" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22272386" sideWeight="0.49468085" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23777276" sideWeight="0.49468085" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32666665" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1189,30 +1321,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/quickstart/src/main/resources/mapper/UserDao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1498788760261" expanded="true" signature="599:636" ph="select * fro... user" />
-            <marker date="1498788760261" expanded="true" signature="740:793" ph="select * fro... user" />
-            <marker date="1498788760261" expanded="true" signature="873:893" ph="select * fro... user" />
-            <marker date="1498788760261" expanded="true" signature="1033:1135" ph="insert into `user`... " />
-            <marker date="1498788760261" expanded="true" signature="1237:1339" ph="update `user... " />
-            <marker date="1498788760261" expanded="true" signature="1412:1443" ph="delete from " />
-            <marker date="1498788760261" expanded="true" signature="1912:2096" ph="select user.... user" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/quickstart/src/main/resources/mybatis-config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="23" column="16" lean-forward="true" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.9.RELEASE/spring-context-4.3.9.RELEASE.jar!/org/springframework/stereotype/Repository.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
@@ -1268,13 +1376,13 @@
         <state relative-caret-position="231">
           <caret line="17" column="28" lean-forward="true" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#847#848#0" expanded="true" />
-            <element signature="e#884#885#0" expanded="true" />
-            <element signature="e#939#940#0" expanded="true" />
-            <element signature="e#979#980#0" expanded="true" />
-            <element signature="e#1031#1032#0" expanded="true" />
-            <element signature="e#1069#1070#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#847#848#0" expanded="false" />
+            <element signature="e#884#885#0" expanded="false" />
+            <element signature="e#939#940#0" expanded="false" />
+            <element signature="e#979#980#0" expanded="false" />
+            <element signature="e#1031#1032#0" expanded="false" />
+            <element signature="e#1069#1070#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1340,7 +1448,7 @@
         <state relative-caret-position="860">
           <caret line="43" column="48" lean-forward="false" selection-start-line="43" selection-start-column="48" selection-end-line="43" selection-end-column="48" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1421,16 +1529,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/quickstart/src/main/java/com/wll/test/mybatis/dao/UserDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/quickstart/src/main/java/com/wll/test/mybatis/entity/User.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1457,22 +1555,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.4/mybatis-3.4.4.jar!/org/apache/ibatis/session/SqlSession.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="14" column="17" lean-forward="false" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/quickstart/src/test/java/TestOnlyMybatis.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-100">
-          <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/quickstart2/src/main/resources/spring and mybatis intergration.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
@@ -1483,8 +1565,58 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/quickstart2/src/main/resources/applicationContext.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="771">
-          <caret line="65" column="8" lean-forward="true" selection-start-line="65" selection-start-column="8" selection-end-line="65" selection-end-column="8" />
+        <state relative-caret-position="231">
+          <caret line="38" column="54" lean-forward="true" selection-start-line="38" selection-start-column="54" selection-end-line="38" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.4/mybatis-3.4.4.jar!/org/apache/ibatis/session/SqlSession.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-380">
+          <caret line="25" column="30" lean-forward="false" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/quickstart/src/main/java/com/wll/test/mybatis/dao/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="12" column="26" lean-forward="false" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/quickstart/src/main/resources/mybatis-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="21" column="32" lean-forward="false" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/quickstart/src/main/resources/mapper/UserDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-340">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1498788760261" expanded="true" signature="599:636" ph="select * fro... user" />
+            <marker date="1498788760261" expanded="true" signature="740:793" ph="select * fro... user" />
+            <marker date="1498788760261" expanded="true" signature="873:893" ph="select * fro... user" />
+            <marker date="1498788760261" expanded="true" signature="1033:1135" ph="insert into `user`... " />
+            <marker date="1498788760261" expanded="true" signature="1237:1339" ph="update `user... " />
+            <marker date="1498788760261" expanded="true" signature="1412:1443" ph="delete from " />
+            <marker date="1498788760261" expanded="true" signature="1912:2096" ph="select user.... user" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/quickstart/src/test/java/TestOnlyMybatis.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-6">
+          <caret line="57" column="14" lean-forward="true" selection-start-line="57" selection-start-column="14" selection-end-line="57" selection-end-column="14" />
           <folding />
         </state>
       </provider>
