@@ -1,4 +1,7 @@
-package mapper;
+package com.wll.test.mybatis.dao;
+
+import com.wll.test.mybatis.entity.Article;
+import com.wll.test.mybatis.entity.User;
 
 import java.util.List;
 

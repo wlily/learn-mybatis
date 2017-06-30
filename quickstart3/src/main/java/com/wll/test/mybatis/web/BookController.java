@@ -30,7 +30,7 @@ public class BookController {
     private String list(Model model) {
         List<Book> list = bookService.getList();
         model.addAttribute("list", list);
-        // list.jsp + model = ModelAndView
+        // list.jsp + entity = ModelAndView
         return "list";// WEB-INF/jsp/"list".jsp
     }
 

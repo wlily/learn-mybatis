@@ -1,4 +1,4 @@
-package mapper;
+package com.wll.test.mybatis.dao;
 
 import com.wll.test.mybatis.entity.Appointment;
 import org.apache.ibatis.annotations.Param;

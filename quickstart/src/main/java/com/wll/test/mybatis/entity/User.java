@@ -1,4 +1,4 @@
-package mapper;
+package com.wll.test.mybatis.entity;
 
 /**
  * Created by wll on 17-6-28.

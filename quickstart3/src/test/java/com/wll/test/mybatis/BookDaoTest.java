@@ -1,6 +1,6 @@
 package com.wll.test.mybatis;
 
-import mapper.BookDao;
+import com.wll.test.mybatis.dao.BookDao;
 import com.wll.test.mybatis.entity.Book;
 import org.junit.Test;
 import org.springframework.beans.factory.annotation.Autowired;

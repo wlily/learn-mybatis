@@ -1,6 +1,6 @@
 package com.wll.test.mybatis;
 
-import mapper.AppointmentDao;
+import com.wll.test.mybatis.dao.AppointmentDao;
 import com.wll.test.mybatis.entity.Appointment;
 import org.junit.Test;
 import org.springframework.beans.factory.annotation.Autowired;

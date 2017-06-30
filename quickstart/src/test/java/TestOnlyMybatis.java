@@ -1,5 +1,5 @@
-import mapper.User;
-import mapper.UserDao;
+import com.wll.test.mybatis.entity.User;
+import com.wll.test.mybatis.dao.UserDao;
 import org.apache.ibatis.io.Resources;
 import org.apache.ibatis.session.SqlSession;
 import org.apache.ibatis.session.SqlSessionFactory;

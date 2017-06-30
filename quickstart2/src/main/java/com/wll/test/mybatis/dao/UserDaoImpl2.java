@@ -1,7 +1,7 @@
 package com.wll.test.mybatis.dao;
 
-import com.wll.test.mybatis.model.Article;
-import com.wll.test.mybatis.model.User;
+import com.wll.test.mybatis.entity.Article;
+import com.wll.test.mybatis.entity.User;
 import org.mybatis.spring.SqlSessionTemplate;
 import org.springframework.stereotype.Repository;
 
