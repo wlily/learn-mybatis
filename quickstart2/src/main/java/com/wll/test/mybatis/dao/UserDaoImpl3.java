@@ -21,7 +21,7 @@ public class UserDaoImpl3 extends SqlSessionDaoSupport implements UserDao{
         super.setSqlSessionTemplate(sqlSession);
     }
 
-//    也可直接注入SqlSessionFactory实例，二者都指定时，SqlSessionFactory失效
+    //也可直接注入SqlSessionFactory实例，二者都指定时，SqlSessionFactory失效
     @Resource
     public void setSqlSessionFactory(SqlSessionFactory sqlSessionFactory){
         super.setSqlSessionFactory(sqlSessionFactory);

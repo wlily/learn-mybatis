@@ -2,34 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="27ed06ab-cf52-41b4-9ef9-a8fdff26d46b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/quickstart2/src/main/java/com/wll/test/mybatis/dao/UserDaoImpl2.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/quickstart2/src/main/java/com/wll/test/mybatis/dao/UserDaoImpl3.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/quickstart2/src/main/java/com/wll/test/mybatis/cond2/dao/UserDao2.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/quickstart2/src/main/java/com/wll/test/mybatis/cond2/service/UserService2.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/quickstart2/src/main/resources/applicationContext2.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/quickstart2/src/main/resources/com/wll/test/mybatis/dao/UserDao2.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/quickstart2/src/test/java/TestWithSpring2.java" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/quickstart/src/main/java/com/wll/test/mybatis/dao/Article.java" afterPath="$PROJECT_DIR$/quickstart/src/main/java/mapper/Article.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/quickstart/src/main/java/com/wll/test/mybatis/dao/User.java" afterPath="$PROJECT_DIR$/quickstart/src/main/java/mapper/User.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/quickstart/src/main/java/com/wll/test/mybatis/dao/UserDao.java" afterPath="$PROJECT_DIR$/quickstart/src/main/java/mapper/UserDao.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/quickstart/src/main/resources/com/wll/test/mybatis/dao/UserDao.xml" afterPath="$PROJECT_DIR$/quickstart/src/main/resources/mapper/UserDao.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/quickstart2/src/main/java/com/wll/test/mybatis/cond1/dao/UserDao.java" afterPath="$PROJECT_DIR$/quickstart2/src/main/java/com/wll/test/mybatis/dao/UserDao.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/quickstart2/src/main/java/com/wll/test/mybatis/cond1/service/IUserService.java" afterPath="$PROJECT_DIR$/quickstart2/src/main/java/com/wll/test/mybatis/service/IUserService.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/quickstart2/src/main/java/com/wll/test/mybatis/cond1/service/UserService.java" afterPath="$PROJECT_DIR$/quickstart2/src/main/java/com/wll/test/mybatis/service/UserService.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/quickstart2/src/main/resources/applicationContext1.xml" afterPath="$PROJECT_DIR$/quickstart2/src/main/resources/applicationContext.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/quickstart2/src/main/resources/com/wll/test/mybatis/dao/UserDao.xml" afterPath="$PROJECT_DIR$/quickstart2/src/main/resources/mapper/UserDao.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/quickstart2/src/test/java/TestWithSpring1.java" afterPath="$PROJECT_DIR$/quickstart2/src/test/java/TestWithSpring.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/quickstart3/src/main/java/com/wll/test/mybatis/dao/AppointmentDao.java" afterPath="$PROJECT_DIR$/quickstart3/src/main/java/mapper/AppointmentDao.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/quickstart3/src/main/java/com/wll/test/mybatis/dao/BookDao.java" afterPath="$PROJECT_DIR$/quickstart3/src/main/java/mapper/BookDao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/quickstart/src/main/resources/mybatis-config.xml" afterPath="$PROJECT_DIR$/quickstart/src/main/resources/mybatis-config.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/quickstart/src/test/java/TestOnlyMybatis.java" afterPath="$PROJECT_DIR$/quickstart/src/test/java/TestOnlyMybatis.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/quickstart2/src/main/resources/mybatis-config.xml" afterPath="$PROJECT_DIR$/quickstart2/src/main/resources/mybatis-config.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/quickstart2/src/main/resources/spring and mybatis intergration.txt" afterPath="$PROJECT_DIR$/quickstart2/src/main/resources/spring and mybatis intergration.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/quickstart3/src/main/java/com/wll/test/mybatis/service/serviceImpl/BookServiceImpl.java" afterPath="$PROJECT_DIR$/quickstart3/src/main/java/com/wll/test/mybatis/service/serviceImpl/BookServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/quickstart3/src/main/resources/mapper/AppointmentDao.xml" afterPath="$PROJECT_DIR$/quickstart3/src/main/resources/mapper/AppointmentDao.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/quickstart3/src/main/resources/mapper/BookDao.xml" afterPath="$PROJECT_DIR$/quickstart3/src/main/resources/mapper/BookDao.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/quickstart3/src/test/java/com/wll/test/mybatis/AppointmentDaoTest.java" afterPath="$PROJECT_DIR$/quickstart3/src/test/java/com/wll/test/mybatis/AppointmentDaoTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/quickstart3/src/test/java/com/wll/test/mybatis/BookDaoTest.java" afterPath="$PROJECT_DIR$/quickstart3/src/test/java/com/wll/test/mybatis/BookDaoTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/quickstart2/src/main/java/com/wll/test/mybatis/dao/UserDaoImpl3.java" afterPath="$PROJECT_DIR$/quickstart2/src/main/java/com/wll/test/mybatis/dao/UserDaoImpl3.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/quickstart2/src/main/resources/applicationContext.xml" afterPath="$PROJECT_DIR$/quickstart2/src/main/resources/applicationContext.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/quickstart/target/" />
     <ignored path="$PROJECT_DIR$/quickstart2/target/" />
@@ -56,11 +30,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="UserDaoImpl3.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="UserDaoImpl3.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/quickstart2/src/main/java/com/wll/test/mybatis/dao/UserDaoImpl3.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="20" column="46" lean-forward="false" selection-start-line="20" selection-start-column="46" selection-end-line="20" selection-end-column="46" />
+            <state relative-caret-position="-86">
+              <caret line="30" column="66" lean-forward="false" selection-start-line="30" selection-start-column="66" selection-end-line="30" selection-end-column="66" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#619#620#0" expanded="true" />
@@ -72,6 +46,36 @@
                 <element signature="e#1715#1716#0" expanded="true" />
                 <element signature="e#1803#1804#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="spring-dao.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/quickstart3/src/main/resources/spring/spring-dao.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="920">
+              <caret line="48" column="8" lean-forward="true" selection-start-line="48" selection-start-column="8" selection-end-line="48" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="spring-service.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/quickstart3/src/main/resources/spring/spring-service.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="17" column="5" lean-forward="false" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="spring-web.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/quickstart3/src/main/resources/spring/spring-web.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="560">
+              <caret line="28" column="8" lean-forward="true" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -106,24 +110,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/quickstart2/src/main/java/com/wll/test/mybatis/service/UserService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="17" column="28" lean-forward="true" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#845#846#0" expanded="true" />
-                <element signature="e#882#883#0" expanded="true" />
-                <element signature="e#937#938#0" expanded="true" />
-                <element signature="e#977#978#0" expanded="true" />
-                <element signature="e#1029#1030#0" expanded="true" />
-                <element signature="e#1067#1068#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="UserDao.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/quickstart2/src/main/java/com/wll/test/mybatis/dao/UserDao.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -136,29 +122,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserDao.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/quickstart2/src/main/resources/mapper/UserDao.xml">
+      <file leaf-file-name="applicationContext.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/quickstart2/src/main/resources/applicationContext.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="920">
-              <caret line="46" column="9" lean-forward="true" selection-start-line="46" selection-start-column="9" selection-end-line="46" selection-end-column="9" />
-              <folding>
-                <marker date="1498785837809" expanded="true" signature="684:721" ph="select * fro... user" />
-                <marker date="1498785837809" expanded="true" signature="825:878" ph="select * fro... user" />
-                <marker date="1498785837809" expanded="true" signature="958:978" ph="select * fro... user" />
-                <marker date="1498785837809" expanded="true" signature="1117:1219" ph="insert into `user`... " />
-                <marker date="1498785837809" expanded="true" signature="1320:1422" ph="update `user... " />
-                <marker date="1498785837809" expanded="true" signature="1495:1526" ph="delete from " />
-                <marker date="1498785837809" expanded="true" signature="1993:2177" ph="select user.... user" />
-              </folding>
+            <state relative-caret-position="511">
+              <caret line="63" column="11" lean-forward="true" selection-start-line="63" selection-start-column="11" selection-end-line="63" selection-end-column="11" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="applicationContext.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/quickstart2/src/main/resources/applicationContext.xml">
+      <file leaf-file-name="spring and mybatis intergration.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/quickstart2/src/main/resources/spring and mybatis intergration.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="485">
-              <caret line="60" column="24" lean-forward="false" selection-start-line="60" selection-start-column="24" selection-end-line="60" selection-end-column="24" />
+            <state relative-caret-position="80">
+              <caret line="4" column="35" lean-forward="true" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="55" />
               <folding />
             </state>
           </provider>
@@ -217,7 +195,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/quickstart2/src/main/java/com/wll/test/mybatis/cond1/dao/UserDao.java" />
         <option value="$PROJECT_DIR$/quickstart3/src/main/java/com/wll/test/mybatis/entity/User.java" />
         <option value="$PROJECT_DIR$/quickstart3/src/main/java/com/wll/test/mybatis/entity/Article.java" />
         <option value="$PROJECT_DIR$/quickstart3/src/main/java/com/wll/test/mybatis/serviceImpl/UserService.java" />
@@ -264,10 +241,11 @@
         <option value="$PROJECT_DIR$/quickstart2/src/main/java/com/wll/test/mybatis/service/UserService.java" />
         <option value="$PROJECT_DIR$/quickstart2/src/test/java/TestWithSpring2.java" />
         <option value="$PROJECT_DIR$/quickstart2/src/test/java/TestWithSpring3.java" />
-        <option value="$PROJECT_DIR$/quickstart2/src/main/java/com/wll/test/mybatis/dao/UserDaoImpl3.java" />
         <option value="$PROJECT_DIR$/quickstart2/src/main/resources/applicationContext1.xml" />
         <option value="$PROJECT_DIR$/quickstart2/src/test/java/TestWithSpring1.java" />
         <option value="$PROJECT_DIR$/quickstart2/src/test/java/TestWithSpring.java" />
+        <option value="$PROJECT_DIR$/quickstart2/src/main/java/com/wll/test/mybatis/dao/UserDaoImpl3.java" />
+        <option value="$PROJECT_DIR$/quickstart2/src/main/resources/applicationContext.xml" />
       </list>
     </option>
   </component>
@@ -344,14 +322,6 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -424,40 +394,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="mybatis" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="service" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="learn-mybatis" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="quickstart2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mybatis" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="model" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1015,7 +951,7 @@
       <workItem from="1498613673922" duration="1435000" />
       <workItem from="1498615131629" duration="5863000" />
       <workItem from="1498627203632" duration="4190000" />
-      <workItem from="1498631771597" duration="35486000" />
+      <workItem from="1498631771597" duration="35695000" />
     </task>
     <servers />
   </component>
@@ -1052,7 +988,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46974000" />
+    <option name="totallyTimeSpent" value="47183000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1080,7 +1016,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23138298" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2925532" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19112115" sideWeight="0.49468085" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20316027" sideWeight="0.49468085" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32795697" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1297,22 +1233,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/quickstart3/src/main/resources/spring/spring-dao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="43" column="36" lean-forward="false" selection-start-line="43" selection-start-column="36" selection-end-line="43" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/quickstart3/src/main/resources/spring/spring-service.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="17" column="5" lean-forward="false" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/quickstart3/src/main/resources/mybatis-config.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -1335,14 +1255,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="6" column="23" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/quickstart3/src/main/resources/spring/spring-web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="452">
-          <caret line="28" column="8" lean-forward="true" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
           <folding />
         </state>
       </provider>
@@ -1461,14 +1373,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/quickstart2/src/main/resources/spring and mybatis intergration.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" column="30" lean-forward="true" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/quickstart2/src/main/java/com/wll/test/mybatis/service/UserService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
@@ -1535,14 +1439,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/quickstart2/src/main/resources/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="485">
-          <caret line="60" column="24" lean-forward="false" selection-start-line="60" selection-start-column="24" selection-end-line="60" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/quickstart2/src/test/java/TestWithSpring3.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="280">
@@ -1587,10 +1483,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/quickstart3/src/main/resources/spring/spring-service.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="17" column="5" lean-forward="false" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/quickstart3/src/main/resources/spring/spring-web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="560">
+          <caret line="28" column="8" lean-forward="true" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/quickstart3/src/main/resources/spring/spring-dao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="920">
+          <caret line="48" column="8" lean-forward="true" selection-start-line="48" selection-start-column="8" selection-end-line="48" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/quickstart2/src/main/resources/spring and mybatis intergration.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="35" lean-forward="true" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/quickstart2/src/main/java/com/wll/test/mybatis/dao/UserDaoImpl3.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="20" column="46" lean-forward="false" selection-start-line="20" selection-start-column="46" selection-end-line="20" selection-end-column="46" />
+        <state relative-caret-position="-86">
+          <caret line="30" column="66" lean-forward="false" selection-start-line="30" selection-start-column="66" selection-end-line="30" selection-end-column="66" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#619#620#0" expanded="true" />
@@ -1602,6 +1530,14 @@
             <element signature="e#1715#1716#0" expanded="true" />
             <element signature="e#1803#1804#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/quickstart2/src/main/resources/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="511">
+          <caret line="63" column="11" lean-forward="true" selection-start-line="63" selection-start-column="11" selection-end-line="63" selection-end-column="11" />
+          <folding />
         </state>
       </provider>
     </entry>
